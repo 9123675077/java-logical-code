@@ -1,19 +1,24 @@
 import java.util.Scanner;
+
+
 public class test {
 
-	public static void main(String[] args) {
-Scanner s = new Scanner(System.in);
-        
-        int st = s.nextInt();
-        int ed = s.nextInt();
-        int wd = s.nextInt();
-		 
-        while(st<=ed){
-            int c = (5*(st-32))/9;
-            System.out.println(st + "  "+ c);
-            st = st + wd;    
-        }
 
+	public static void main(String[] args) {
+    
+    	Scanner s = new Scanner(System.in);
+        String a = s.next();
+        int m1 = s.nextInt();
+        int m2 = s.nextInt();
+        int m3 = s.nextInt();
+        
+        int avg = (m1+m2+m3)/3;
+        System.out.println(a);
+        System.out.println(avg);
+        
+		
+		
+		
 	}
 
 }
