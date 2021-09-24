@@ -1,3 +1,5 @@
+// Hello this is Asif 
+// code in codingninja Bootcamp Question Solve
 // print pattern look like Z
 // if n= 5;
 
